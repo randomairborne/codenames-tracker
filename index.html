@@ -16,7 +16,26 @@
       border: 1px solid black;
       border-collapse: collapse;
     }
+    input {
+      border-style: solid;
+    }
   </style>
+  <script>
+    function blackOutParent(element) {
+      let color;
+      let borderColor;
+      if (element.checked) {
+        color = "#000000";
+        borderColor = "#000000";
+      } else {
+        color = "#ffffff";
+        borderColor = "#dddddd";
+      }
+      element.parentElement.parentElement.style.backgroundColor = color;
+      element.parentElement.parentElement.firstElementChild.firstElementChild.style.backgroundColor = color;
+      element.parentElement.parentElement.firstElementChild.firstElementChild.style.borderColor = borderColor;
+    }
+  </script>
 </head>
 
 <body>
@@ -25,210 +44,210 @@
     <tr>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
     </tr>
     <tr>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
     </tr>
     <tr>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
-        </label>
-      </td>
-      <td>
-        <label>
-          <input/>
-        </label>
-        <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
       <td>
         <label>
-          <input/>
+          <input style="border-color: #dddddd"/>
         </label>
         <label>
-          <input type="checkbox" />
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
+        </label>
+      </td>
+      <td>
+        <label>
+          <input style="border-color: #dddddd"/>
+        </label>
+        <label>
+          <input type="checkbox" onclick="blackOutParent(this)" />
         </label>
       </td>
     </tr>
